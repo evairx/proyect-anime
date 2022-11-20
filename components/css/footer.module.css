@@ -1,0 +1,91 @@
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../img/background-footer.svg);
+    background-size: cover
+}
+
+.containerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.boxfooter{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+.boxfooter h1{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.boxfooter .logo img{
+    width: 180px;
+}
+
+.boxfooter .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.link{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.boxfooter h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.boxfooter a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.boxfooter a:hover{
+    opacity: 0.8;
+}
+
+.boxfooter a .fab{
+    font-size: 20px;
+}
+
+.boxcopyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.boxcopyright p{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #383838;
+}
+
+.boxcopyright a{
+    color: rgb(17, 17, 17);
+    font-weight: 800;
+    text-decoration:none;
+}
+
+.boxcopyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}

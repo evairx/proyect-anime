@@ -1,0 +1,83 @@
+.container {
+    margin-top: 30px;
+    
+}
+
+.containerlink{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.containerlink h1 {
+   font-weight: 600;
+   font-size: 30px;
+   letter-spacing: 2px;
+}
+
+.containerlink p {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+ }
+
+.selectbox {
+    width: 100%;
+    position: relative;
+}
+
+.select {
+    background: rgba(8, 8, 8, 0.548);
+    border: 3px solid #7700ff;
+    color: white;
+    width: 100%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .16);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .2s ease all;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.select:hover {
+    background-color:rgba(255, 255, 255, 0.205) ;
+}
+
+.check {
+    display: none;
+}
+
+.contentopciones {
+    display: none;
+}
+.opciones {
+    color: white;
+    background: rgba(8, 8, 8, 0.548);
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    border: 1px solid #7700ff;
+}
+
+.opciones:hover {
+    background: rgba(255, 255, 255, 0.486);
+}
+
+.opciones p {
+    font-size: 18px;
+    letter-spacing: 0;
+}
+
+
+.check:checked ~ .contentopciones{
+    display: block;
+}

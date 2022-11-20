@@ -1,0 +1,224 @@
+.column {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 275px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.title h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.nav {
+    width: 100%;
+    margin:auto;
+    color:#fff;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.nav ul {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li{
+    margin-left: 5px;
+    border: 2px solid #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.select {
+    margin-left: 5px;
+    border: 2px solid #FFFFFF;
+    background: #fff;
+    padding: 5px 10px;
+    color: #000;
+    cursor: pointer;
+    list-style: none;
+}
+
+.nav ul .arrow {
+    margin-left: 5px;
+    border-radius: 10px 0px 10px 0px;
+    border: 2px solid #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.nav ul li p {
+    text-align: center;
+}
+
+.nav ul li:hover {
+    background: rgba(255, 255, 255, 0.486);
+}
+
+
+
+@media screen and (max-width: 1525px){
+    .column {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+
+
+@media screen and (max-width: 1308px){
+    .column {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .column {
+        margin-left: 100px;
+        margin-right: 100px;
+        grid-template-columns: repeat(auto-fill, 225px);
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1225px){
+    .column {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1125px){
+    .column {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1066px){
+    .column {
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: repeat(auto-fill, 210px);
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 937px){
+    .column {
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: repeat(auto-fill, 185px);
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 904px){
+    .column {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 804px){
+    .column {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 704px){
+    .column {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 596px){
+    .column {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 180px);
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 455px){
+    .column {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 160px);
+        gap: 30px;
+        justify-content: center;
+        
+    }
+}
+@media screen and (max-width: 436px){
+    .column {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 160px);
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .column {
+        margin-top: 30px;
+        margin-left:0px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 135px);
+        gap: 40px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 380px){
+    .column {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .column {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    .column {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        gap: 30px;
+        justify-content: center;
+    }
+}

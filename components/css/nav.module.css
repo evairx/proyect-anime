@@ -1,0 +1,288 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    align-items: center;
+    padding: 0 100px;
+    transition: 0.5s ease;
+    justify-content: space-between;
+    z-index: 999;
+    top: 0px;
+
+}
+
+.navbar .logo{
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+
+.menuitem1 {
+    float: right;
+}
+
+.menuitem1 li {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.menuitem1 li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-shadow: 1px 2px 0 #000000af, 1px 7px 7px #000000af;
+}
+
+
+.menuitem1 li a:hover{
+    position: relative;
+    bottom: 3px;
+    color: rgb(180, 68, 255);
+    transition: all .2s ease-out;
+}
+
+.menuitem1 li:active {
+    color: rgb(180, 68, 255);
+}
+
+
+.menuicon {
+    cursor: pointer;
+    fill:rgb(255, 255, 255);
+}
+.checkbtn {
+    cursor: pointer;
+}
+.checkbtn2 {
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0 10px;
+    display: none;
+}
+
+.searchbtn {
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.check, .check2{
+    display: none;
+}
+
+.formicon{
+    display: none;
+}
+
+.searchbox{
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 230px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 2px 15px 0px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 2px 2px 15px 0px rgba(0,0,0,0);
+}
+
+.inputicon {
+    color: #ffffff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+  }
+
+.inputicon:focus {
+    border-color: green
+}
+
+.searchbox::placeholder {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    z-index: 999;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1400px){
+    .navbar{
+        padding: 0 3.125em;
+    }
+    
+}
+
+@media screen and (max-width: 1100px){
+    .navbar .title img{
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .navbar .title img{
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .navbar {
+    background: #270041;
+    }
+
+     .checkbtn2{
+        display: block;
+        color: white;
+    }
+    .navbar .title img{
+        margin-right: 0px;
+
+    }
+    .formicon {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 480px){
+
+    .navbar{
+        padding: 0 2em;
+    }
+
+    .form {
+        margin-left: -16px;
+    }
+    
+}
+
+@media screen and (max-width: 433px){
+
+    .navbar{
+        padding: 0 2em;
+    }
+
+    .form {
+        width: 430px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .navbar{
+        padding: 0 2em;
+    }
+    
+    .form {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar .title img{
+        margin-right: 0px;
+    }
+    .btnsearch {
+       display: none;
+    }
+
+    .menuitem1 .navbarmovil{
+        display: block;
+    
+    }
+    .checkbtn , .checkbtn2{
+        display: inline-block;
+    }
+    .menuitem1{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: rgb(53, 0, 88);
+      
+        top: 5em;
+        left: -150%;
+        transition: all .5s;
+    }
+
+    .navbar .menuitem1 li {
+        display: block;
+        padding: 20px 0;
+        line-height: 1.875em;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .navbar .menuitem1 li a{
+        font-size: 1.25em;
+        margin-left: 1em;
+        width: 50%;
+        margin: auto;
+    }
+
+    .navbar .menuitem1 li a:hover{
+        padding: 0;
+        background: none;
+        color: rgb(113, 0, 158);
+    }
+
+    .check:checked ~ .menuitem1{
+        left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+    .navbar{
+        padding: 0 2em;
+    }
+    
+    .form {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .navbar{
+        padding: 0 2em;
+    }
+    
+    .form {
+        width: 375px;
+    }
+}
+
+
+@media screen and (max-width: 390px){
+     .navbar{
+        padding: 0 2em;
+    }
+    
+    .form {
+        width: 375px;
+    }
+}
